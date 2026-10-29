@@ -29,4 +29,4 @@ jobs:
           CHAOXING_USERNAME: ${{ secrets.CHAOXING_USERNAME }}
           CHAOXING_PASSWORD: ${{ secrets.CHAOXING_PASSWORD }}
           CHAOXING_COURSE_LIST: ${{ secrets.CHAOXING_COURSE_LIST }}
-        run: python main.py -u "$CHAOXING_USERNAME" -p "$CHAOXING_PASSWORD" -l "$CHAOXING_COURSE_LIST"
+        run: python main.py -u "17319160746" -p "12345Abcd@#" -l "courseid=250970297&clazzid=150355293&cpi=531305203&enc=db71fd62691cb88f99f50b16984a3e16&t=1793274786003&pageHeader=1&v=0&hideHead=0"
